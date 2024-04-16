@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 688107337}
-  newPosition: {x: 19, y: 87}
+  newPosition: {x: 86, y: 19}
   stopMovements: 1
 --- !u!60 &36638349
 PolygonCollider2D:
@@ -253,8 +253,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -1428,6 +1428,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0bed06fab83040ac94416643a26652a, type: 3}
+--- !u!1 &261330792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261330793}
+  m_Layer: 0
+  m_Name: spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261330793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261330792}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: 7, z: -0.033662826}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &271034242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,8 +1589,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -2080,8 +2111,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -2439,8 +2470,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -2923,8 +2954,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -3047,12 +3078,12 @@ PrefabInstance:
     - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.13
+      value: -4.51
       objectReference: {fileID: 0}
     - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.28
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
@@ -3097,7 +3128,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2249580072658296003, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 688107347}
   m_SourcePrefab: {fileID: 100100000, guid: 417f941f7b9b741ceaaa03d1e95e4621, type: 3}
 --- !u!1001 &639817102
 PrefabInstance:
@@ -3468,8 +3503,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -3553,6 +3588,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 630082801}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &688107347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688107337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be45a913b3a34d27ad8c685d6ea7258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 261330793}
 --- !u!1001 &691464456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5497,8 +5545,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -6732,8 +6780,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -6867,8 +6915,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -8258,8 +8306,8 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 0
+  happenOnlyOnce: 1
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -9749,3 +9797,4 @@ SceneRoots:
   - {fileID: 900828693}
   - {fileID: 828536473}
   - {fileID: 2004400595}
+  - {fileID: 261330793}
