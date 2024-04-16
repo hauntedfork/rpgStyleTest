@@ -53,3 +53,6 @@ TagManager:
   - name: Gameplay
     uniqueID: 1087635889
     locked: 0
+  - name: walls
+    uniqueID: 3480106671
+    locked: 0
