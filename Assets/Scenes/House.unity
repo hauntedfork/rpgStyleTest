@@ -8627,7 +8627,7 @@ PrefabInstance:
     - target: {fileID: 1749092126758579468, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: orientToDirection
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2249580072658296003, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
@@ -8644,15 +8644,31 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4281056016072794153, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281056016072794153, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281056016072794153, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e9bd1aecb39a4df0b49ca5283e0653d,
+        type: 3}
     - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: m_Size.y
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
@@ -8664,15 +8680,45 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608875126898034872, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9841069
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0079151
+      objectReference: {fileID: 0}
     - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.79
+      value: -5.7489
       objectReference: {fileID: 0}
     - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.97
+      value: -2.9495
       objectReference: {fileID: 0}
     - target: {fileID: 8736676192924982570, guid: 417f941f7b9b741ceaaa03d1e95e4621,
         type: 3}
@@ -8726,6 +8772,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 688107348}
+    - targetCorrespondingSourceObject: {fileID: 2249580072658296003, guid: 417f941f7b9b741ceaaa03d1e95e4621,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 688107349}
   m_SourcePrefab: {fileID: 100100000, guid: 417f941f7b9b741ceaaa03d1e95e4621, type: 3}
 --- !u!1001 &639817102
 PrefabInstance:
@@ -9911,6 +9961,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &688107349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688107337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e7a04223b794b18963b20e2682b5bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &691464456
 PrefabInstance:
   m_ObjectHideFlags: 0
