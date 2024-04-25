@@ -11,6 +11,7 @@ TagManager:
   - Pickup
   - Dialogue
   - Chair
+  - openHouse
   layers:
   - Default
   - TransparentFX

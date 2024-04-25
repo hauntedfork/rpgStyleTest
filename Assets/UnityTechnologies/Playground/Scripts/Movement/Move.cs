@@ -20,7 +20,7 @@ public class Move : Physics2DObject
 
 	private Vector2 movement, cachedDirection;
 	public float moveHorizontal;
-	private float moveVertical;
+	public float moveVertical;
 
 
 	// Update gets called every frame

@@ -37,6 +37,7 @@ public class PlayerAnimation : MonoBehaviour
         //IMPORTANT: for this to work, change Playground's "moveHorizontal" float from private to public (line 22 in the "Move" script)
         //IMPORTANT: if the Animation Controller does not have a transition parameter called "animSpeed", this won't work
         animator.SetFloat("animSpeed", Mathf.Abs(move.moveHorizontal));
+        animator.SetFloat("vertical", Mathf.Abs(move.moveVertical));
 
         //This is the code to make the player jump. 
         //IMPORTANT: for this to work, we need to add a new public boolean in Playground's "Jump" called "isJUmping" (line 25 in Playground's "Jump")
