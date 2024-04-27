@@ -12,6 +12,7 @@ TagManager:
   - Dialogue
   - Chair
   - openHouse
+  - spellBook
   layers:
   - Default
   - TransparentFX

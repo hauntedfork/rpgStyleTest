@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22470998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.6556604, b: 0.6556604, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1017,7 +1017,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 4a3070cd82f214af5916e32ee021d6db, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -1029,9 +1029,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The walls twist and crackle with a strange energy. Whatever is warping
-    the house is coming from this room. In the midst of the glow you make out the
-    figure of... AUNT JAY?!!! And...A FROG?!!!\n\n\t\tTo Be Continued."
+  m_Text: "As you exit the house, you feel a powerful surge of magic. Whatever is
+    warping the house is coming from this book!!! In the midst of the glow you make
+    out the figure of... AUNT JAY?!!! And...A FROG?!!!\n\n\t\tTo Be Continued."
 --- !u!114 &11461754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,8 +1168,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012512, y: -0.000015259}
-  m_SizeDelta: {x: 1644.3, y: 768}
+  m_AnchoredPosition: {x: 0.0021515, y: 0.000045381}
+  m_SizeDelta: {x: 1365.1, y: 768}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5087808378250171259
 CanvasRenderer:
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7169812, g: 0.51067996, b: 0.51067996, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
